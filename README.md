@@ -17,4 +17,4 @@ Features:
 - Serch songs by song title and artist name,
 
 Demo of project available on:
-# music_sphere
+https://music-sphere.netlify.app
