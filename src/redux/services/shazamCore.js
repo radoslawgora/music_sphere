@@ -8,7 +8,11 @@ export const shazamCoreApi = createApi({
       headers.set(
         'X-RapidAPI-Key',
         // eslint-disable-next-line comma-dangle
+<<<<<<< HEAD
         '4ec344a8e2msh51431829ad370ccp146b28jsnb2360ade8676'
+=======
+        '####'
+>>>>>>> 78c0c48aaa64d63f1e8f6ad882b09cd92f586f6c
       );
 
       return headers;

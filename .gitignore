@@ -13,6 +13,10 @@ dist
 dist-ssr
 *.local
 src/redux/services/shazamCore.js
+<<<<<<< HEAD
+=======
+
+>>>>>>> 78c0c48aaa64d63f1e8f6ad882b09cd92f586f6c
 
 # Editor directories and files
 .vscode/*
