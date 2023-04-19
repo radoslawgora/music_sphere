@@ -20,9 +20,9 @@ const TopChartCard = ({ song, i, isPlaying, activeSong, handlePauseClick, handle
         <Link to={`/songs/${song.key}`}>
           <p className="text-xl font-bold text-white">{song?.title}</p>
         </Link>
-        <Link to={`/artists/${song?.artists[0].adamid}`}>
+        {/* <Link to={`/artists/${song?.artists[0].adamid}`}> */}
           <p className="text-base text-gray-300 mt-1">{song?.subtitle}</p>
-        </Link>
+        {/* </Link> */}
       </div>
     </div>
     <PlayPause
@@ -68,7 +68,7 @@ const TopPlay = () => {
 
         <div className="mt-4 flex flex-col gap-1">
           {topPlays?.map((song, i) => (
-            <TopChartCard 
+            <TopChartCard
               key={song.key}
               song={song}
               i={i}
@@ -90,7 +90,7 @@ const TopPlay = () => {
           </Link>
         </div>
 
-        <Swiper 
+        {/* <Swiper 
         slidesPerView="auto"
         spaceBetween={15}
         freeMode
@@ -109,7 +109,7 @@ const TopPlay = () => {
                   </Link>
             </SwiperSlide>
           ))}
-        </Swiper>
+        </Swiper> */}
       </div>
         
 
