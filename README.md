@@ -1,8 +1,7 @@
 Project: Music Sphere App.
 
 Description: Music Sphere App is an online music player - spotify clone. The
-application is fully responsive. The app is built based on tutorial available on
-https://www.youtube.com/watch?v=I1cpb0tYV74 .
+application is fully responsive. 
 
 Techs: React, Redux. Tailwind CSS, Rapid API - Shazam By Api Dojo and IP
 Geolocation API.
